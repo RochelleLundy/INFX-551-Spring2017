@@ -1,3 +1,8 @@
-http://www.policyagendas.org/
-http://hds.essex.ac.uk/
-http://www.nationalarchives.gov.uk/webarchive/archiving-datasets.htm
+Rochelle: http://www.policyagendas.org/
+This repository contains datasets relevant to studying public policy in the United States. Datasets include cases heard before the Supreme Court, Congressional hearings and roll call votes, executive orders, etc. Each event has been coded to indicate the policy topic(s) to which it relates; the coding scheme can be found at http://www.policyagendas.org/page/topic-codebook.
+
+Rose S: http://hds.essex.ac.uk/
+The History Data Service data collection brings together over 650 separate studies transcribed, scanned or compiled from historical sources. The studies cover a wide range of historical topics, from the seventh century to the twentieth century. Although the primary focus of the collection is on the United Kingdom, it also includes a significant body of cross-national and international data collections. Examples of topics covered include: nineteenth and twentieth century statistics, manuscript census records, state finance data, demographic data, mortality data, community histories, electoral history and economic indicators.
+
+Rose F: http://www.nationalarchives.gov.uk/webarchive/archiving-datasets.htm
+Environment and Climate Change Canada has a water use database that includes information on all major water users obtained from national surveys on municipal water use, municipal water pricing and industrial water use. Summary data and reports are available for download.
