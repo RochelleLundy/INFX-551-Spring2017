@@ -59,6 +59,21 @@ Title: Commercial Recycled Materials Market Report
 * Format: Excel, PDF
 * Contributed by: RL
 
+**City of Tacoma**
+
+Title: Recycle Report 2013
+* URL:   [https://data.cityoftacoma.org/Environment-and-Sustainability/Recycle-Report-2013/cyay-7zby]
+* Intended audience: Tacoma residents interested in recycling rates and Tacoma city employees/departments measuring city performance against goals.
+* Observations: Data on materials removed from landfills in Tacoma.  Includes data from 2014 (not 2013) dataset title. Appears to be similar to Materials Removed from Landfill: 2013.
+* Format: CSV, JSON, RDF, TSV, RSS, XML
+* Contributed by: RF
+
+Title: Materials Removed from Landfill: 2013
+* URL:   [https://data.cityoftacoma.org/Environment-and-Sustainability/Materials-Removed-from-Landfill-2013/wztn-6z4f]
+* Intended audience: Tacoma residents interested in recycling rates and Tacoma city employees/departments measuring city performance against goals.
+* Observations: Data on materials removed from landfills in Tacoma.  Includes data from 2015 (not 2013) dataset title. Appears to be similar to Recycle Report 2013.
+* Format: CSV, JSON, RDF, TSV, RSS, XML
+* Contributed by: RF
 
 **King County**
 
