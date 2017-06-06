@@ -1,11 +1,18 @@
 ### Filename:  RecycleReport_Tacoma_2013
 
 #### Annotated Cleaning Narrative:
+
+Correct spelling errors and capitalization inconsistencies in individual cells based on text faceting
 - Mass edit cells in column ﻿Material
 - Mass edit cells in column ﻿Material
 - Mass edit cells in column ﻿Material
+
+Remove "/" character from cell values and replace with "or"
 - Text transform on cells in column ﻿Material using expression grel:value.replace("/", " or ")
+Adjust resulting value in cell where "or" not appropriate
 - Edit single cell on row 28, column ﻿Material
+
+Check for and trim whitespaces from all values by column
 - Text transform on cells in column ﻿Material using expression grel:value.replace(".","")
 - Text transform on cells in column ﻿Material using expression value.trim()
 - Text transform on cells in column Tons using expression value.trim()
