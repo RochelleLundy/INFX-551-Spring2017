@@ -1,86 +1,101 @@
-### Filename:  RecycleReport_Tacoma_2013
+### Filename:  MaterialRecoveryAndDisposal_WA_1986-2014
 
 #### Annotated Cleaning Narrative:
 
-Rename column Column to Material Type
-Edit single cell on row 1, column Material Type
-	Create column Index at index 1 based on column Material Type using expression grel:rowIndex+1
-	Move column Index to position 0
-	Fill down cells in column Material Type
-Edit single cell on row 30, column Material Type
-Edit single cell on row 31, column Material Type
-Edit single cell on row 32, column Material Type
-Edit single cell on row 33, column Material Type
-Edit single cell on row 34, column Material Type
-Edit single cell on row 35, column Material Type
-Edit single cell on row 36, column Material Type
-Edit single cell on row 39, column Material Type
-Edit single cell on row 40, column Material Type
-	Fill down cells in column Material Type
-Edit single cell on row 70, column Material Type
-Edit single cell on row 71, column Material Type
-Edit single cell on row 72, column Material Type
-Edit single cell on row 73, column Material Type
-Edit single cell on row 77, column Material Type
-Edit single cell on row 78, column Material Type
-Edit single cell on row 79, column Material Type
-Edit single cell on row 80, column Material Type
-	Fill down cells in column Material Type
-	Remove rows
-	Remove rows
-	Rename column MSW Materials Recovered for Recycling (tons): to Material
-	Remove column Column 31
-	Remove column Column 32
-	Rename column 1986.0 to 1986
-	Text transform on cells in column 1986 using expression null
-	Text transform on cells in column 1986 using expression null
-	Rename column 1988.0 to 1988
-	Text transform on cells in column 1988 using expression null
-	Text transform on cells in column 1988 using expression null
-	Rename column 1989.0 to 1989
-	Text transform on cells in column 1989 using expression null
-	Rename column 1990.0 to 1990
-	Text transform on cells in column 1990 using expression null
-	Rename column 1991.0 to 1991
-	Text transform on cells in column 1991 using expression null
-	Rename column 1992.0 to 1992
-	Text transform on cells in column 1992 using expression null
-	Rename column 1993.0 to 1993
-	Text transform on cells in column 1993 using expression null
-	Rename column 1994.0 to 1994
-	Text transform on cells in column 1994 using expression null
-	Rename column 1995.0 to 1995
-	Text transform on cells in column 1995 using expression null
-	Rename column 1996.0 to 1996
-	Text transform on cells in column 1996 using expression null
-	Rename column 1997.0 to 1997
-	Text transform on cells in column 1997 using expression null
-	Rename column 1998.0 to 1998
-	Text transform on cells in column 1998 using expression null
-	Rename column 1999.0 to 1999
-	Text transform on cells in column 1999 using expression null
-	Rename column 2000.0 to 2000
-	Text transform on cells in column 2000 using expression null
-	Rename column 2001.0 to 2001
-	Text transform on cells in column 2001 using expression null
-	Rename column 2002.0 to 2002
-	Text transform on cells in column 2002 using expression null
-	Rename column 2003.0 to 2003
-	Text transform on cells in column 2003 using expression null
-	Rename column 2004.0 to 2004
-	Rename column 2005.0 to 2005
-	Rename column 2006.0 to 2006
-	Rename column 2007.0 to 2007
-	Rename column 2008.0 to 2008
-	Rename column 2009.0 to 2009
-	Rename column 2010.0 to 2010
-	Rename column 2011.0 to 2011
-	Rename column 2012.0 to 2012
-	Rename column 2013.0 to 2013
-	Rename column 2014.0 to 2014
-Text transform on cells in column Material Type using expression value.trim()
-	Text transform on cells in column Material using expression value.trim()
-	Remove column Index
+Create new column to capture material type information from subdividing rows in original XLSX format
+- Rename column Column to Material Type
+- Edit single cell on row 1, column Material Type
+
+Create column of row index numbers in order to use numeric faceting to fill down cell values in new column
+- Create column Index at index 1 based on column Material Type using expression grel:rowIndex+1
+- Move column Index to position 0
+- Fill down cells in column Material Type
+
+Use fill down to fill values in new column and manually fill between facet ranges 
+- Edit single cell on row 30, column Material Type
+- Edit single cell on row 31, column Material Type
+- Edit single cell on row 32, column Material Type
+- Edit single cell on row 33, column Material Type
+- Edit single cell on row 34, column Material Type
+- Edit single cell on row 35, column Material Type
+- Edit single cell on row 36, column Material Type
+- Edit single cell on row 39, column Material Type
+- Edit single cell on row 40, column Material Type
+- Fill down cells in column Material Type
+- Edit single cell on row 70, column Material Type
+- Edit single cell on row 71, column Material Type
+- Edit single cell on row 72, column Material Type
+- Edit single cell on row 73, column Material Type
+- Edit single cell on row 77, column Material Type
+- Edit single cell on row 78, column Material Type
+- Edit single cell on row 79, column Material Type
+- Edit single cell on row 80, column Material Type
+- Fill down cells in column Material Type
+
+Relabel column with 'Material' variable name instead of subdividing header
+- Rename column MSW Materials Recovered for Recycling (tons): to Material
+
+Remove blank rows and columns using faceting
+- Remove rows
+- Remove rows
+- Remove column Column 31
+- Remove column Column 32
+
+Rename each column to remove decimal in year and facet for all non-numeric values (N/A, N/C) and replace with blank values
+- Rename column 1986.0 to 1986
+- Text transform on cells in column 1986 using expression null
+- Text transform on cells in column 1986 using expression null
+- Rename column 1988.0 to 1988
+ Text transform on cells in column 1988 using expression null
+- Text transform on cells in column 1988 using expression null
+- Rename column 1989.0 to 1989
+- Text transform on cells in column 1989 using expression null
+- Rename column 1990.0 to 1990
+- Text transform on cells in column 1990 using expression null
+- Rename column 1991.0 to 1991
+- Text transform on cells in column 1991 using expression null
+- Rename column 1992.0 to 1992
+- Text transform on cells in column 1992 using expression null
+- Rename column 1993.0 to 1993
+- Text transform on cells in column 1993 using expression null
+- Rename column 1994.0 to 1994
+- Text transform on cells in column 1994 using expression null
+- Rename column 1995.0 to 1995
+- Text transform on cells in column 1995 using expression null
+- Rename column 1996.0 to 1996
+- Text transform on cells in column 1996 using expression null
+- Rename column 1997.0 to 1997
+- Text transform on cells in column 1997 using expression null
+- Rename column 1998.0 to 1998
+- Text transform on cells in column 1998 using expression null
+- Rename column 1999.0 to 1999
+- Text transform on cells in column 1999 using expression null
+- Rename column 2000.0 to 2000
+- Text transform on cells in column 2000 using expression null
+- Rename column 2001.0 to 2001
+- Text transform on cells in column 2001 using expression null
+- Rename column 2002.0 to 2002
+- Text transform on cells in column 2002 using expression null
+- Rename column 2003.0 to 2003
+- Text transform on cells in column 2003 using expression null
+- Rename column 2004.0 to 2004
+- Rename column 2005.0 to 2005
+- Rename column 2006.0 to 2006
+- Rename column 2007.0 to 2007
+- Rename column 2008.0 to 2008
+- Rename column 2009.0 to 2009
+- Rename column 2010.0 to 2010
+- Rename column 2011.0 to 2011
+- Rename column 2012.0 to 2012
+- Rename column 2013.0 to 2013
+- Rename column 2014.0 to 2014
+
+Remove whitespace in text value columns
+- Text transform on cells in column Material Type using expression value.trim()
+- Text transform on cells in column Material using expression value.trim()
+
+Remove temporary index column created for editing
+- Remove column Index
 
 #### JSON Cleaning Script:
 
