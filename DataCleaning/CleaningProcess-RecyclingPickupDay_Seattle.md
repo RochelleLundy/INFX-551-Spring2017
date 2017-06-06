@@ -2,16 +2,27 @@
 
 #### Annotated Cleaning Narrative:
 
+Remove special characters from column names
 - Rename column ���OBJECTID to OBJECTID
+
+Standardize case of column names
 - Rename column Shape to SHAPE
 - Rename column Shape_Length to SHAPE_LENGTH
 - Rename column Shape_Area to SHAPE_AREA
+
+Remove commas from numeric values
 - Text transform on cells in column SHAPE_LENGTH using expression grel:value.replace(",", "")
 - Text transform on cells in column SHAPE_AREA using expression grel:value.replace(",", "")
+
+Remove parentheses from shape coordinate values
 - Text transform on cells in column SHAPE using expression grel:value.replace("(","").replace(")","")
+
+Split shape coordinate column into latitude and longitude columns
 - Split column SHAPE by separator
 - Rename column SHAPE 1 to SHAPE_LATITUDE
 - Rename column SHAPE 2 to SHAPE_LONGITUDE
+
+Check for and trim whitespaces from all values by column
 - Text transform on cells in column OBJECTID using expression value.trim()
 - Text transform on cells in column SHAPE_LATITUDE using expression value.trim()
 - Text transform on cells in column SHAPE_LONGITUDE using expression value.trim()
@@ -25,9 +36,7 @@
 - Text transform on cells in column SHAPE_LENGTH using expression value.trim()
 - Text transform on cells in column SHAPE_AREA using expression value.trim()
 
-
 #### JSON Cleaning Script:
-
 ```
 [
   {
