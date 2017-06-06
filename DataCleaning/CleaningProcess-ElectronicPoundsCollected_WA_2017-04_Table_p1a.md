@@ -24,7 +24,7 @@ Star and remove rows into which variable names initially parsed
 - Remove rows
 - Remove rows
 	
-Standardize case in text
+Standardize case in text values
 - Text transform on cells in column Covered Electronics Product Type using expression value.toTitlecase()
 
 Remove commas and percentage signs from numbers 
