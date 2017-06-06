@@ -9,6 +9,7 @@ Correct spelling errors and capitalization inconsistencies in individual cells b
 
 Remove "/" character from cell values and replace with "or"
 - Text transform on cells in column ﻿Material using expression grel:value.replace("/", " or ")
+
 Adjust resulting value in cell where "or" not appropriate
 - Edit single cell on row 28, column ﻿Material
 
