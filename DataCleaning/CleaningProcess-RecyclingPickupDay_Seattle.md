@@ -14,10 +14,13 @@ Remove commas from numeric values
 - Text transform on cells in column SHAPE_LENGTH using expression grel:value.replace(",", "")
 - Text transform on cells in column SHAPE_AREA using expression grel:value.replace(",", "")
 
-Remove parentheses from shape coordinate values
+Create duplicate column of SHAPE and name as SHAPE_LOCATION
+- Create column SHAPE_LOCATION at index 2 based on column SHAPE using expression grel:value
+
+Remove parentheses from SHAPE coordinate values
 - Text transform on cells in column SHAPE using expression grel:value.replace("(","").replace(")","")
 
-Split shape coordinate column into latitude and longitude columns
+Split original SHAPE column into latitude and longitude columns
 - Split column SHAPE by separator
 - Rename column SHAPE 1 to SHAPE_LATITUDE
 - Rename column SHAPE 2 to SHAPE_LONGITUDE
@@ -88,6 +91,19 @@ Check for and trim whitespaces from all values by column
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column SHAPE_LOCATION at index 2 based on column SHAPE using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "SHAPE_LOCATION",
+    "columnInsertIndex": 2,
+    "baseColumnName": "SHAPE",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
   },
   {
     "op": "core/text-transform",
