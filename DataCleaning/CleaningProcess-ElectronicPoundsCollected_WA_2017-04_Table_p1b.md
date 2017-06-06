@@ -2,21 +2,25 @@
 
 #### Annotated Cleaning Narrative:
 
-Text transform on cells in column Estimated quantity in pounds by WA State county April using expression grel:value.replace(",","")
-	Text transform on cells in column Estimated quantity in pounds by WA State county YTD April using expression grel:value.replace(",","")
-	Text transform on cells in column Percent of total pound by county YT April using expression grel:value.replace("%","")
-	Text transform on cells in column Estimated quantity in pounds by WA State county April using expression value.toNumber()
-	Text transform on cells in column Estimated quantity in pounds by WA State county YTD April using expression value.toNumber()
-	Text transform on cells in column Estimated quantity in pounds by WA State county April using expression null
-	Text transform on cells in column WA State County using expression value.trim()
-	Text transform on cells in column Estimated quantity in pounds by WA State county April using expression value.trim()
-	Text transform on cells in column Estimated quantity in pounds by WA State county YTD April using expression value.trim()
-	Text transform on cells in column Percent of total pound by county YT April using expression value.trim()
+Remove commas and percentage signs from numbers
+- Text transform on cells in column Estimated quantity in pounds by WA State county April using expression grel:value.replace(",","")
+- Text transform on cells in column Estimated quantity in pounds by WA State county YTD April using expression grel:value.replace(",","")
+- Text transform on cells in column Percent of total pound by county YT April using expression grel:value.replace("%","")
 
+Change values to number type for numeric facet
+- Text transform on cells in column Estimated quantity in pounds by WA State county April using expression value.toNumber()
+- Text transform on cells in column Estimated quantity in pounds by WA State county YTD April using expression value.toNumber()
 
+Identify non-numeric values (NR) with numeric facet and blank out
+- Text transform on cells in column Estimated quantity in pounds by WA State county April using expression null
+
+Check for and trim whitespaces from values by column
+- Text transform on cells in column WA State County using expression value.trim()
+- Text transform on cells in column Estimated quantity in pounds by WA State county April using expression value.trim()
+- Text transform on cells in column Estimated quantity in pounds by WA State county YTD April using expression value.trim()
+- Text transform on cells in column Percent of total pound by county YT April using expression value.trim()
 
 #### JSON Cleaning Script:
-
 ```
 [
   {
