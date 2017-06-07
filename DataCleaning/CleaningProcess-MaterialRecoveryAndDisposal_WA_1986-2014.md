@@ -9,9 +9,9 @@ Create new column to capture material type information from subdividing rows in 
 Create column of row index numbers in order to use numeric faceting to fill down cell values in new column
 - Create column Index at index 1 based on column Material Type using expression grel:rowIndex+1
 - Move column Index to position 0
-- Fill down cells in column Material Type
 
 Use fill down to fill values in new column and manually fill between facet ranges 
+- Fill down cells in column Material Type
 - Edit single cell on row 30, column Material Type
 - Edit single cell on row 31, column Material Type
 - Edit single cell on row 32, column Material Type
@@ -32,7 +32,7 @@ Use fill down to fill values in new column and manually fill between facet range
 - Edit single cell on row 80, column Material Type
 - Fill down cells in column Material Type
 
-Relabel column with 'Material' variable name instead of subdividing header
+Relabel new column with 'Material' variable name instead of subdividing header
 - Rename column MSW Materials Recovered for Recycling (tons): to Material
 
 Remove blank rows and columns using faceting
@@ -41,7 +41,7 @@ Remove blank rows and columns using faceting
 - Remove column Column 31
 - Remove column Column 32
 
-Rename each column to remove decimal in year and facet for all non-numeric values (N/A, N/C) and replace with blank values
+Rename each column to standardize format, and facet each column for all non-numeric values (N/A, N/C) and replace with blank values
 - Rename column 1986.0 to 1986
 - Text transform on cells in column 1986 using expression null
 - Text transform on cells in column 1986 using expression null
