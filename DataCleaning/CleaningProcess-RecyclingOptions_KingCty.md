@@ -42,7 +42,7 @@ could not be effectively standardized given nature of values)
 - Mass edit cells in column Fee (multiple)
 - Text transform on cells in column Fee using expression grel:value.replace("<a href=","").replace("</a>","").replace(">","")
 
-Split ëproperty typeí column into two Boolean columns to avoid multiple values in cells
+Split Property Type column into two Boolean columns to avoid multiple values in cells
 - Move column Property Type to position 14
 - Create column Business Property Type at index 15 based on column Property Type using expression grel:value
 - Rename column Property Type to Serves Residential
