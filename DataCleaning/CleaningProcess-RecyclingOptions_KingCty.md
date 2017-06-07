@@ -1,11 +1,12 @@
 ### Filename:  RecyclingOptions_KingCty
 
-#### Annotated Cleaning Narrative (multiple operations of same type condensed into single item as noted):
+#### Annotated Cleaning Narrative (multiple operations of same type condensed into single items as noted):
 
 Remove special characters from column names
 - Rename column ÔªøProviderID to ProviderID
 
 Facet, cluster, merge and perform to standardize column values and remove special characters and HTML tags
+
 (Note: columns with variable, free-text entries, including 'Hours', 'Fees', and 'Restructions', were subject to some transformation for cleaning, but 
 could not be effectively standardized given nature of values) 
 
