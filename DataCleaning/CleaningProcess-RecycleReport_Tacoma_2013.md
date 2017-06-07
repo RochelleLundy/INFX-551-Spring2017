@@ -7,14 +7,10 @@ Correct spelling errors and capitalization inconsistencies in individual cells b
 - Mass edit cells in column ﻿Material
 - Mass edit cells in column ﻿Material
 
-Remove "/" character from cell values and replace with "or"
-- Text transform on cells in column ﻿Material using expression grel:value.replace("/", " or ")
-
-Adjust resulting value in cell where "or" not appropriate
-- Edit single cell on row 28, column ﻿Material
-
-Check for and trim whitespaces from all values by column
+Remove "." character from text values in Material column
 - Text transform on cells in column ﻿Material using expression grel:value.replace(".","")
+
+Check for and trim whitespaces from values by column
 - Text transform on cells in column ﻿Material using expression value.trim()
 - Text transform on cells in column Tons using expression value.trim()
 
@@ -81,19 +77,6 @@ Check for and trim whitespaces from all values by column
         "to": "LDPE Foam"
       }
     ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column ﻿Material using expression grel:value.replace(\"/\", \" or \")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "﻿Material",
-    "expression": "grel:value.replace(\"/\", \" or \")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
