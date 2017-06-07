@@ -29,10 +29,10 @@ could not be effectively standardized given nature of values)
 - Text transform on cells in column Hours using expression grel:value.replace("¬","")
 - Text transform on cells in column Hours using expression grel:value.replace("a.m.","am").replace("p.m.","pm")
 - Text transform on cells in column Service Description using expression grel:value.replace("¬","")
-- Text transform on cells in column Service Description using expression grel:value.replace("<a href=","").replace("</a>","")
+- Text transform on cells in column Service Description using expression `grel:value.replace("<a href=","").replace("</a>","")`
 - Text transform on cells in column Service Description using expression grel:value.replace(">","")
-- Text transform on cells in column Hours using expression grel:value.replace("<a href=","").replace("</a>","").replace(">","")
-- Text transform on cells in column Restrictions using expression grel:value.replace("<a href=","").replace("</a>","").replace(">","")
+- Text transform on cells in column Hours using expression `grel:value.replace("<a href=","").replace("</a>","").replace(">","")`
+- Text transform on cells in column Restrictions using expression `grel:value.replace("<a href=","").replace("</a>","").replace(">","")`
 - Text transform on cells in column Restrictions using expression grel:value.replace("¬","")
 - Mass edit cells in column Restrictions (multiple)
 - Mass edit cells in column Minimum Volume
@@ -41,7 +41,7 @@ could not be effectively standardized given nature of values)
 - Mass edit cells in column Minimum Volume (multiple)
 - Mass edit cells in column Maximum Volume (multiple)
 - Mass edit cells in column Fee (multiple)
-- Text transform on cells in column Fee using expression grel:value.replace("<a href=","").replace("</a>","").replace(">","")
+- Text transform on cells in column Fee using expression `grel:value.replace("<a href=","").replace("</a>","").replace(">","")`
 
 Split Property Type column into two Boolean columns to avoid multiple values in cells
 - Move column Property Type to position 14
