@@ -14,7 +14,8 @@
     * [Ingestion Policy](/r3Recycling/protocolReport/ingestion/ingestionPolicy.md)
     * [Ingestion Policy Notes](/r3Recycling/protocolReport/ingestion/ingestionPolicyNotes.md)
 
-* [Curated Datasets](/r3Recycling/protocolReport/curatedDatasets/curatedDatasets.md)
+* [Curated Datasets](/r3Recycling/protocolReport/curatedDatasets/readme.md)
+    * [Curated Datasets Notes](/r3Recycling/protocolReport/curatedDatasets/curatedDatasets.md)
     * [Table of Curated Datasets](/r3Recycling/protocolReport/curatedDatasets/curatedDatasetsTable.md)
 
 * [Transformation](/r3Recycling/protocolReport/transformation/readme.md)
