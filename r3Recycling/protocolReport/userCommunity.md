@@ -36,7 +36,6 @@ User stories envisioning the potential goals of various stakeholders, including 
 
 | **Goal** | **User Story** |
 | --- | --- |
-| Describe the way data were collected | &quot;_As an academic researcher interested in depositing my data with R<sup>3</sup> Recycling, I want to understand how much detail to provide about how my data were collected, and how to proceed if I used a mixture of collection methods.&quot;_ |
 | Describe the author of a dataset | &quot;_As a government depositor to R<sup>3</sup> Recycling, I need to know whether there is a controlled vocabulary for Washington government entities that I should use when I indicate the producer of the dataset.&quot;_ |
 | Understand what datasets are accepted for deposit | _&quot;As a county waste management agency, I want to find out whether my dataset is &#39;about&#39; recycling and can be deposited with R<sup>3</sup> even though it also involves landfill data.&quot;_ |
 | Know how datasets will be stored and can be accessed over time | _&quot;As a city employee, I need to tell my manager whether depositing our data with R<sup>3</sup> means that we can delete it from our servers because you will always keep it available online.&quot;_ |
