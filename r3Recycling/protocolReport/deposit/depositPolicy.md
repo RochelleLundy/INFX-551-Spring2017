@@ -11,7 +11,6 @@
       - Description
       - Geographic scope
       - Temporal scope
-      - Data collection method
       - Any cleaning, anonymization, or other modifications made to the data post-collection for analysis or sharing
       - File Format
     - Title, description, and file format must be provided individually for each data file proposed for deposit
