@@ -19,7 +19,8 @@ accessed in full as a GitBook [here](https://www.gitbook.com/book/rochellelundy/
     * [Ingestion Policy](ingestion/ingestionPolicy.md)
     * [Ingestion Policy Notes](ingestion/ingestionPolicyNotes.md)
 
-* [Curated Datasets](curatedDatasets/curatedDatasets.md)
+* [Curated Datasets](curatedDatasets/readme.md)
+    * [Curated Datasets Notes](curatedDatasets/curatedDatasets.md)
     * [Table of Curated Datasets](curatedDatasets/curatedDatasetsTable.md)
 
 * [Transformation](transformation/readme.md)
