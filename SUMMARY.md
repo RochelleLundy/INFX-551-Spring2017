@@ -1,50 +1,36 @@
 # Summary
 
-* [Project Background, Definition, and Scope](.md)
+* [Project Background, Definition, and Scope](INFX-551-Spring2017/r3Recycling/protocolReport/projectBackgroundScope.md)
 
-* [User Community](.md)
-    * [?](.md)
+* [User Community](INFX-551-Spring2017/r3Recycling/protocolReport/userCommunity.md)
 
-* [Repository Software](.md)
+* [Repository Software](INFX-551-Spring2017/r3Recycling/protocolReport/repositorySoftware.md)
 
-* [Deposit](.md)
-    * [Deposit Policy](.md)
-	* [Deposit Process] (?internal anchors)
-	* [Deposit Criteria]
-	* [Preservation]
-	* [Removal and Archiving]
-    * [Deposit Policy Notes](.md)
+* [Deposit](INFX-551-Spring2017/r3Recycling/protocolReport/deposit/readme.md)
+    * [Deposit Policy](INFX-551-Spring2017/r3Recycling/protocolReport/deposit/depositPolicy.md)
+    * [Deposit Policy Notes](INFX-551-Spring2017/r3Recycling/protocolReport/deposit/depositPolicyNotes.md)
 
-* [Ingestion](.md)
-    * [Ingestion Policy](.md)
-	* [Upload] (?internal anchors)
-	* [Pre-Publication]
-    * [Ingestion Policy Notes](.md)
+* [Ingestion](INFX-551-Spring2017/r3Recycling/protocolReport/ingestion/readme.md)
+    * [Ingestion Policy](INFX-551-Spring2017/r3Recycling/protocolReport/ingestion/ingestionPolicy.md)
+    * [Ingestion Policy Notes](INFX-551-Spring2017/r3Recycling/protocolReport/ingestion/ingestionPolicyNotes.md)
 
-* [Curated Datasets](.md)
-    * [Table of Curated Datasets](.md)
+* [Curated Datasets](INFX-551-Spring2017/r3Recycling/protocolReport/curatedDatasets/curatedDatasets.md)
+    * [Table of Curated Datasets](INFX-551-Spring2017/r3Recycling/protocolReport/curatedDatasets/curatedDatasetsTable.md)
 
-* [Transformation](.md)
-    * [Transformation Policy](.md)
-	* [Format Conversion] (?internal anchors)
-	* [Data Cleaning]
-	* [File Naming Conventions]
-	* [Versioning]
-    * [Transformation Policy Notes](.md)
-	* [Format Conversion Notes] (?internal anchors)
-	* [Data Cleaning Notes]
-	* [File Naming Convention Notes]
-	* [Versioning Notes]
+* [Transformation](INFX-551-Spring2017/r3Recycling/protocolReport/transformation/readme.md)
+    * [Transformation Policy](INFX-551-Spring2017/r3Recycling/protocolReport/transformation/transformationPolicy.md)
+    * [Transformation Policy Notes](INFX-551-Spring2017/r3Recycling/protocolReport/transformation/transformationPolicyNotes.md)
 
-* [Licensing](.md)
-    * [Licensing Policy](.md)
-    * [Licensing Policy Notes](.md)
+* [Licensing](INFX-551-Spring2017/r3Recycling/protocolReport/licensing/readme.md)
+    * [Licensing Policy](INFX-551-Spring2017/r3Recycling/protocolReport/licensing/licensingPolicy.md)
+    * [Licensing Policy Notes](INFX-551-Spring2017/r3Recycling/protocolReport/licensing/licensingPolicyNotes.md)
 
-* [Metadata](.md)
-    * [Metadata Schema](.md)
-    * [Metadata Schema Notes](.md)
+* [Metadata](INFX-551-Spring2017/r3Recycling/protocolReport/metadata/readme.md)
+    * [Metadata Schema](INFX-551-Spring2017/r3Recycling/protocolReport/metadata/metadataSchema.md)
+    * [Metadata Schema Notes](INFX-551-Spring2017/r3Recycling/protocolReport/metadata/metadataSchemaNotes.md)
 
-* [Concluding Notes](.md)
+
+* [Concluding Notes](INFX-551-Spring2017/r3Recycling/protocolReport/concludingNotes.md)
 
 
 
