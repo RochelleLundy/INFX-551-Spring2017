@@ -1,4 +1,4 @@
-## R3 Recycling Repository - Curated Datasets
+## R<sup>3</sup> Recycling: Curated Dataset Table
 
 | **Title/Filename** | **Relationship to Other Datasets** | **Source Description** | **Source URL** | **Formats Available at Source** | **Repository Format** | **Size** |
 | --- | --- | --- | --- | --- | --- | --- |
