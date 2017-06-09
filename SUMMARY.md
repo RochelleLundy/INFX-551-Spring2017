@@ -1,6 +1,6 @@
 # Summary
 
-* [Project Background, Definition, and Scope](INFX-551-Spring2017/r3Recycling/protocolReport/projectBackgroundScope.md)
+* [Project Background, Definition, and Scope](/r3Recycling/protocolReport/projectBackgroundScope.md)
 
 * [User Community](INFX-551-Spring2017/r3Recycling/protocolReport/userCommunity.md)
 
