@@ -37,4 +37,8 @@ accessed in full as a GitBook [here](https://www.gitbook.com/book/rochellelundy/
 
 * [Concluding Notes](concludingNotes.md)
 
+* [References](references.md)
+
+
+
 
