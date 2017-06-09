@@ -1,0 +1,9 @@
+# Files to be ignored by GitBook
+HowTo-discussion-writeup.md
+Code/*
+Data/*
+Documentation/*
+Metadata-Examples/*
+Potential Datasets/*
+Repository Examples/*
+Use-Case/*
