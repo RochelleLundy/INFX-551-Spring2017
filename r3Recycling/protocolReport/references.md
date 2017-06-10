@@ -28,10 +28,7 @@ eCommons: Cornell&#39;s Digital Repository. (n.d.). _Recommended File Formats_. 
 
 European Data Portal (2017). _Recommendations for open data portals: From setup to sustainability._ Retrieved from [https://www.europeandataportal.eu/sites/default/files/edp\_s3wp4\_sustainability\_recommendations.pdf](https://www.europeandataportal.eu/sites/default/files/edp_s3wp4_sustainability_recommendations.pdf)
 
-Fast, K., Leise, F. and Steckel, M. (2003, April 17). Creating a Controlled Vocabulary. _Boxes and_
-
-_Arrows_ [Blog]. Retrieved from
-
+Fast, K., Leise, F. and Steckel, M. (2003, April 17). Creating a Controlled Vocabulary. _Boxes and__Arrows_ [Blog]. Retrieved from
 [http://boxesandarrows.com/creating-a-controlled-vocabulary/](http://boxesandarrows.com/creating-a-controlled-vocabulary/)
 
 Frazer, M. (2013, January 14). An Elevator Pitch for File Naming Conventions. _ACRL TechConnect_. Retrieved from [http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions](http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions)
