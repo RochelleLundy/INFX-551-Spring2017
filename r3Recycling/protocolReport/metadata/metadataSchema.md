@@ -1,28 +1,28 @@
 ## R<sup>3</sup> Recycling: Metadata Schema
 
-R<sup>3</sup> Recycling utilizes the Data Catalog Vocabulary (“DCAT”) metadata schema (W3C, 2014). All metadata elements in use by the Repository are listed below, with complete information, including an the element class, optionality, cardinality, vocabulary restrictions, notes on R<sup>3</sup>'s choice of this element, and an example of the element as applied to a repository dataset provided in the table available here.
-| **Element** |
-| --- |
-| `dcat:accessURL` |
-| `dct:issued `|
-| `dct:modified` |
-| `dcat:distribution` |
-| `dct:rights` |
-| `dct:license` |
-| `dcat:byteSize` |
-| `dct:identifier` |
-| `dct:title` |
-| `dct:description` |
-| `dct:publisher` |
-| `dcat:contactPoint` |
-| `dct:temporal` |
-| `dcat:landingPage` |
-| `dcat:keyword` |
-| `dcat:theme` |
-| `dct:accrualPeriodicity` |
-| `dct:spatial` |
-| `dct:hasVersion` |
-| `dct:creator` |
+R<sup>3</sup> Recycling utilizes the Data Catalog Vocabulary (“DCAT”) metadata schema (W3C, 2014). All metadata elements in use by the Repository are listed below, with complete information, including an the element class, optionality, cardinality, vocabulary restrictions, notes on R<sup>3</sup>'s choice of this element, and an example of the element as applied to a repository dataset provided in the table available [here](metadataElementsTable.xlsx).
+
+#### R<sup>3</sup> DCAT Metadata Elements:
+- `dcat:accessURL` 
+- `dct:issued `
+- `dct:modified` 
+- `dcat:distribution` 
+- `dct:rights` 
+- `dct:license` 
+- `dcat:byteSize` 
+- `dct:identifier` 
+- `dct:title` 
+- `dct:description` 
+- `dct:publisher` 
+- `dcat:contactPoint` 
+- `dct:temporal` 
+- `dcat:landingPage` 
+- `dcat:keyword` 
+- `dcat:theme` 
+- `dct:accrualPeriodicity` 
+- `dct:spatial` 
+- `dct:hasVersion` 
+- `dct:creator` 
 
 #### Controlled Vocabularies
  
